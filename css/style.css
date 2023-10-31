@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #232323;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+}
+
+.logo {
+  color: rgb(23,162,184);
+}
+
+.nav-link{
+  position: relative;
+  color: white;
+  margin: 0 5px 0 5px;
+}
+
+.nav-link:hover{
+  color: rgba(226, 224, 224, 0.775);
+}
+
+.nav-link::after{
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  background-color: rgb(23,162,184);
+  width: 0;
+  height: 3px;
+  transition: 0.4s;
+}
+
+.nav-item:hover .nav-link::after{
+  width: 100%;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+.ff{
+  margin-top: 50px !important;
+}
+
+.aa {
+  transform: scale(1.3);
+ height: 300px !important; 
+ width: 420px !important;
+ margin-left: 25px !important;
+ margin-top: 75px !important;
+ z-index: 2;
+ background-color: transparent !important;
+}
+
+.ww{
+  margin-top: 50px !important;
+}
+
+.oo:hover .pp{
+  color: white !important;
+}
+
+.line{
+  background-color:rgb(23,162,184) ;
+  width: 70px;
+  height: 3px;
+  margin-top: -6px;
+  margin-left: 10px;
+}
+
+.tt{
+  width: 300px !important;
+  height: 200px !important;
+}
+
+.line1{
+  background-color:rgb(23,162,184) ;
+  width: 70px;
+  height: 3px;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+
+.line2{
+  background-color:rgb(23,162,184)  ;
+  width: 270px ;
+  height: 2px ;
+  margin-top: -3px;
+  margin-left: 20px;
+ 
+}
+
+.ddff{
+  transition: 0.5s;
+}
+
+.ddff:hover{
+  transform: translateY(-14px);
+
+}
+
+.card-jj{
+  background-image: linear-gradient(145deg, rgb(23,162,184) 0%, rgba(23, 22, 22, 0.45)100%);
+  padding: 0 20px 0 20px;
+}
+
+
+.card-jj img{
+  width: 100px !important;
+  position: absolute;
+  top: -42px;
+  margin-left: -150px;
+}
+
+.ppt{
+  font-style: italic !important;
+}
+
+#accordion{
+  margin-top: 90px;
+}
+
+.form-group{
+  background-color: rgb(52,58,64);;
+  margin-top: 40px;
+}
+
+.yytt{
+  font-size: 50px !important;
+}
+
+.more-about-us h3{
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.btn4{
+  border: none;
+  padding: 10px 25px 10px 25px;
+  border-radius: 20px;
+  background-color: rgb(23,162,184);
+  margin-left: 150px;
+}
